@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #66ff00, #00c6ff);
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header img {
+      width:200px;
+      height: 220px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0077ff;
+    }
+
+    /* About */
+    .about p {
+      text-align: center;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    /* Contact */
+    .contact p {
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+    .contact a {
+      color: #036fea;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="./Jay Sharma photo.jpg" alt="Profile Photo">
+    <h1>👋 Hi, I'm Your Name</h1>
+    <p>Web Developer | Designer | Creator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a passionate web developer who loves creating modern, responsive websites. 
+       I enjoy learning new technologies and building projects that make life easier.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>🌐 Portfolio Website</h3>
+        <p>A responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Paytm clone </h3>
+        <p>Designed a simple UI for a paytm app.</p>
+      </div>
+      <div class="card">
+        <h3>The Umbrella Shodow</h3>
+        <p>This website provide a all services  </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@example.com">jays62700@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/jay-sharma-3b3b16301</a></p>
+    <p>GitHub: <a href="#">github.com/jaysharma-pro</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
